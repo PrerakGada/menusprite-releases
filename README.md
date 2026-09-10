@@ -13,10 +13,19 @@ brew install --cask prerakgada/tap/menusprite
 open -a MenuSprite
 ```
 
-Or download the signed, notarized ZIP from [Releases](https://github.com/PrerakGada/menusprite-releases/releases),
-unzip it and move MenuSprite.app to Applications. Keep only one installed copy.
+Or [download the signed, notarized DMG](https://github.com/PrerakGada/menusprite-releases/releases/download/v0.4.0-preview.1/MenuSprite-0.4.0-preview.1-arm64.dmg):
+
+1. Open the downloaded disk image.
+2. Drag **MenuSprite** onto the **Applications** shortcut in the installer window.
+3. Open MenuSprite from Applications, then eject the installer disk.
+
+When updating manually, quit MenuSprite first and choose **Replace** when Finder
+asks. Your saved settings remain in place. Keep only one installed copy.
 Use `brew upgrade --cask menusprite` for future updates; this preview has no in-app
 updater.
+
+The ZIP remains available for Homebrew and existing download links. Both formats
+contain the same 0.4.0 (8) app.
 
 ## Public preview
 
