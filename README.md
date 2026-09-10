@@ -1,0 +1,50 @@
+# MenuSprite
+
+A native macOS menu-bar monitor with customizable readouts and app/process detail
+panels. This repository distributes public preview binaries; application source
+and internal planning are not published here.
+
+## Install
+
+Requires **Apple Silicon and macOS 26 or newer**.
+
+```sh
+brew install --cask prerakgada/tap/menusprite
+open -a MenuSprite
+```
+
+Or download the signed, notarized ZIP from [Releases](https://github.com/PrerakGada/menusprite-releases/releases),
+unzip it and move MenuSprite.app to Applications. Keep only one installed copy.
+Use `brew upgrade --cask menusprite` for future updates; this preview has no in-app
+updater.
+
+## Public preview
+
+- CPU, memory, network, disk, GPU, battery and available read-only hardware sensors.
+- Configurable menu-bar items: labels above values, paired rows, units, colors and refresh intervals.
+- CPU/RAM/Power panels with ranked accessible apps/processes and helper grouping.
+- A Permissions & Access page for MenuSprite's own access, with explicit requests and system-setting links.
+- Keep-awake timers and automatic rules for power, displays and selected running apps.
+
+Per-app Power is **CPU-energy-derived**, not total electrical draw. GPU, display
+and other components are not assigned to individual apps. Sensors vary by Mac;
+unavailable values remain unavailable. CPU-temperature mapping is currently
+specific to the tested M5 family. Process lists update only while their panels
+are open, and do not include every protected system process.
+
+The preview excludes administrator helpers, battery charge control, closed-lid
+sleep overrides, fan control, capture, clipboard history, marketplace and sharing.
+It is an early public build, not a claim of complete replacement for other utilities.
+
+## Privacy and settings
+
+Monitoring stays on the Mac. No account or telemetry is required. Opening
+Permissions & Access does not request permissions or capture private content.
+Settings are stored under `~/Library/Application Support/MenuSprite` and the app's
+`in.prerakgada.MenuSprite` preferences. Readouts can be hidden or disabled separately.
+
+## Feedback
+
+Report reproducible issues in this repository. Include the MenuSprite version,
+macOS version and Mac model. Do not attach passwords, private process data or
+personal diagnostic files without reviewing them first.
