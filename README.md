@@ -13,7 +13,7 @@ brew install --cask prerakgada/tap/menusprite
 open -a MenuSprite
 ```
 
-Or [download the signed, notarized DMG](https://github.com/PrerakGada/menusprite-releases/releases/download/v0.4.0-preview.1/MenuSprite-0.4.0-preview.1-arm64-installer2.dmg):
+Or [download the signed, notarized DMG](https://github.com/PrerakGada/menusprite-releases/releases/download/v0.4.0-preview.1/MenuSprite-0.4.0-preview.1-arm64-installer3.dmg):
 
 1. Open the downloaded disk image.
 2. Drag **MenuSprite** onto the **Applications** shortcut in the installer window.

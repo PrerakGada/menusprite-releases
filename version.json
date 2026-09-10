@@ -4,6 +4,6 @@
   "channel": "preview.1",
   "homebrew_version": "0.4.0,8",
   "release_tag": "v0.4.0-preview.1",
-  "installer_revision": 2,
-  "dmg_asset": "MenuSprite-0.4.0-preview.1-arm64-installer2.dmg"
+  "installer_revision": 3,
+  "dmg_asset": "MenuSprite-0.4.0-preview.1-arm64-installer3.dmg"
 }
