@@ -13,7 +13,7 @@ brew install --cask prerakgada/tap/menusprite
 open -a MenuSprite
 ```
 
-Or [download the signed, notarized DMG](https://github.com/PrerakGada/menusprite-releases/releases/download/v0.4.0-preview.1/MenuSprite-0.4.0-preview.1-arm64-installer3.dmg):
+Or [download the signed, notarized DMG](https://github.com/PrerakGada/menusprite-releases/releases/download/v0.5.5-preview.1/MenuSprite-0.5.5-preview.1-arm64-installer3.dmg):
 
 1. Open the downloaded disk image.
 2. Drag **MenuSprite** onto the **Applications** shortcut in the installer window.
@@ -25,12 +25,13 @@ Use `brew upgrade --cask menusprite` for future updates; this preview has no in-
 updater.
 
 The ZIP remains available for Homebrew and existing download links. Both formats
-contain the same 0.4.0 (8) app.
+contain the same 0.5.5 (16) app.
 
 ## Public preview
 
 - CPU, memory, network, disk, GPU, battery and available read-only hardware sensors.
-- Configurable menu-bar items: labels above values, paired rows, units, colors and refresh intervals.
+- Configurable menu-bar items: labels above values, paired rows, editable labels, separate icon/text colors, units and refresh intervals.
+- Claude and Codex limit readings, day/hour pace colors, a percent-symbol-only color option, and an AI Accounts board for their CLI logins.
 - CPU/RAM/Power panels with ranked accessible apps/processes and helper grouping.
 - A Permissions & Access page for MenuSprite's own access, with explicit requests and system-setting links.
 - Keep-awake timers and automatic rules for power, displays and selected running apps.
@@ -47,7 +48,7 @@ It is an early public build, not a claim of complete replacement for other utili
 
 ## Privacy and settings
 
-Monitoring stays on the Mac. No account or telemetry is required. Opening
+System monitoring stays on the Mac; no MenuSprite account or telemetry is required. Optional AI usage readings use your existing Claude Code/Codex login to contact the relevant provider for current limits, and may refresh an expiring login. The AI Accounts board shares saved logins with Claude Switcher. Switching a login changes the account used by the corresponding CLI; existing Codex sessions may retain their previous account. These features do not upload your project files or mail. Opening
 Permissions & Access does not request permissions or capture private content.
 Settings are stored under `~/Library/Application Support/MenuSprite` and the app's
 `in.prerakgada.MenuSprite` preferences. Readouts can be hidden or disabled separately.
