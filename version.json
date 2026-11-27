@@ -1,11 +1,11 @@
 {
-  "version": "0.6.1",
-  "build": "22",
+  "version": "0.6.2",
+  "build": "23",
   "channel": "preview.1",
-  "homebrew_version": "0.6.1,22",
-  "release_tag": "v0.6.1-preview.1",
-  "release_title": "MenuSprite 0.6.1 — Preview 1",
-  "archive_asset": "MenuSprite-0.6.1-preview.1-arm64.zip",
+  "homebrew_version": "0.6.2,23",
+  "release_tag": "v0.6.2-preview.1",
+  "release_title": "MenuSprite 0.6.2 — Preview 1",
+  "archive_asset": "MenuSprite-0.6.2-preview.1-arm64.zip",
   "installer_revision": 3,
-  "dmg_asset": "MenuSprite-0.6.1-preview.1-arm64-installer3.dmg"
+  "dmg_asset": "MenuSprite-0.6.2-preview.1-arm64-installer3.dmg"
 }
